@@ -1,0 +1,621 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans_regular/OpenSans-Regular-webfont.eot');
+    src: url('fonts/opensans_regular/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_regular/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/opensans_regular/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans_regular/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans_bold/OpenSans-Bold-webfont.eot');
+    src: url('fonts/opensans_bold/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_bold/OpenSans-Bold-webfont.woff') format('woff'),
+         url('fonts/opensans_bold/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans_bold/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/opensans_light/OpenSans-Light-webfont.eot');
+    src: url('fonts/opensans_light/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_light/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/opensans_light/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/opensans_light/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('fonts/opensans_semibold/OpenSans-Semibold-webfont.eot');
+    src: url('fonts/opensans_semibold/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_semibold/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('fonts/opensans_semibold/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('fonts/opensans_semibold/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+p
+{
+    font-family: 'open_sansregular', serif;
+    font-size: 0.98em; 
+}
+h1, h2, .md_pol
+{
+    font-family: 'open_sanslight', serif;
+}
+h1
+{
+    font-size: 4.5em;
+}
+h2
+{
+    font-size: 2.4em;
+}
+.gras, #options
+{
+    font-family: 'open_sansbold'; 
+    font-size: 1.05em;
+}
+.semi_gras
+{
+    font-family: 'open_sanssemibold';
+}
+.sm_pol
+{
+    font-size: 0.825em;
+    font-family: 'open_sansbold';
+    color: #ffffff;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+}
+.md_pol
+{
+    font-size: 2.25em;
+    margin-top: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.button
+{
+    text-transform: uppercase;
+    font-family: 'open_sansbold';
+    font-size: 0.97em;
+}
+#spam
+{
+    font-family: 'open_sansregular';
+    font-size: 0.9em;
+    color: #57697f;
+}
+#section_one h1, #section_one p, #featured_content{
+    color: #ffffff;
+}
+p{
+    line-height: 2;
+}
+/*---------------header----------------*/
+header{
+    background: url(images/homme_paysage.png) top no-repeat;
+}
+header img{
+    margin-top: 53px;
+}
+/*---------------section_one----------------*/
+#section_one h1{
+        margin-top: 336px;
+    }
+#section_one p{
+    margin-top: 20px;
+}
+/*---------------description----------------*/
+/*---------------featured_content----------------*/
+#fr1c1{
+    background-color: #f5989d;
+}
+#fr2c1{
+    background: url(images/ensoleiller.png);
+    transform: translateX(0px);
+}
+#fr1c2{
+    background-color: #615f7d;
+}
+#fr1c3{
+    background-image: url(images/observateur.png);
+}
+#fr2c2{
+    background-color: #82ca9c;
+}
+/*---------------details----------------*/
+/*---------------big_picture----------------*/
+#big_picture{
+    color: #ffffff;
+    height: 875px;
+    background: url(images/big_picture.png) center;
+}
+#big_picture h1{
+    height: 162px;
+    margin-bottom: 0px;
+}
+#big_picture p[class="lorem"]{
+    margin-left: 0px;
+}
+#options{
+    margin-top: 13px;
+}
+span{
+    padding-left: 10px;
+}
+/*---------------about----------------*/
+#about{
+    background-color: #82ca9c;
+    color: #ffffff;
+}
+/*---------------price_ranges----------------*/
+#price_ranges{
+    background-color: #f6f7fa;
+}
+#pc2{
+    background-color: #ffffff;
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0.1);
+}
+#legacy{
+    width: 80px;
+    background-color: #e1e1e1;
+}
+#most_popular{
+    width: 110px;
+    background-color: #bd8cbf;
+}
+#pc1p3, #pc2p3{
+    margin-top: 25px;
+}
+.button{
+    width: 145px;
+    margin-top: 25px;
+    border-radius: 3px;
+    background-color: #82ca9c;
+    color: #ffffff;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    text-align: center;
+}
+.icones{
+    margin-top: 18px;
+}
+.ico_space{
+    padding-left: 15px
+}
+/*---------------footer----------------*/
+footer{
+    color: #ffffff;
+    background-color: #192431;
+}
+@media screen and (min-width: 1200px)
+{
+    .container{
+        width: 1230px;
+        padding: 0 0 0 0;
+    }
+    .row{
+        margin: 0 0 0 0;
+        padding: 0 0 0 30px;
+    }
+    #pc1 .sm_pol, #pc1 .md_pol, #pc1p3, 
+    #pc1 .button, #pc1 .icones{
+        margin-left: 60px;
+    }
+    div[class*="col-"]{
+        padding-left: 0px;
+    }
+/*---------------header----------------*/
+    header{
+        height: 1060px;
+    }
+/*---------------sectione_one----------------*/
+    #phone{
+        margin-top: 150px;
+    }
+/*---------------description----------------*/
+    #description{
+        height: 500px;
+        transform: translateX(0px);
+    }
+    #dr1{
+        height: 68px;
+    }
+    #dr1c1{
+        position: absolute;
+        top: 0px;
+    }
+    #description h2{
+        margin-top: 0px;
+    }
+    #dr2{
+        position: absolute;
+        top: 68px;
+        height: 362px;
+    }
+    #duis, #eaque{
+        margin-top: 35px;
+    }
+    #nemo{
+        margin-top: 92px;
+    }
+    #neque{
+        margin-top: 30px;
+    }
+    #dr2c1{
+        padding-right: 25px;
+    }
+/*---------------featured_content----------------*/
+    #featured_content div[class*="col-"]{
+        height: 278px;
+        padding-top: 25px;
+        padding-right: 35px;
+        padding-left: 40px;
+    }
+    #featured_content p[class="lorem"]{
+        margin-top: 20px;
+    }
+    #featured_content p[class="gras"]{
+        margin-top: 20px;
+    }
+    #featured_content #fr2c1p2{
+        margin-top: 40px;
+    }
+    #fr1c3 p[class="gras"]{
+        margin-top: 48px;
+    }
+    #fr2c1 p[class="lorem"]{
+        margin-right: 250px;
+    }
+    #fr2c1 img{
+        position: absolute;
+        top: 215px;
+        left: 740px;
+    }
+/*---------------details----------------*/
+    #details{
+        height: 577px;
+    }
+    #details h2{
+        margin-top: 96px;
+        height: 95px;
+        margin-bottom: 0px;
+    }
+    #details p[class="lorem"]{
+        margin-top: 24px;
+    }
+    #details div[class*="col-"]{
+        padding-right: 30px;
+    }
+/*---------------big_picture----------------*/
+   #big_picture h1{
+    margin-top: 442px;
+    }
+/*---------------about----------------*/
+    #about{
+        height: 588px;
+    }
+    #about h2{
+        margin-top: 124px;
+        height: 96px;
+        margin-bottom: 0px;
+    }
+    #about p[class="lorem"]{
+        margin-top: 24px;
+    }
+    #about div[class*="col-"]{
+        padding-right: 30px;
+    }
+/*---------------price_ranges----------------*/
+    #price_ranges{
+        height: 720px;
+    }
+    #pc2{
+        width: 560px;
+        height: 450px;
+        margin-top: 100px;
+    }
+    #most_popular, #pc2p2, #pc2p3, #pc2p4, #pc2p5{
+        margin-left: 60px;
+    }
+    #legacy{
+        margin-top: 150px;
+    }
+    #most_popular{
+        margin-top: 50px;
+    }
+    #pc1p3{
+        width: 405px;
+    }
+    #pc2p3{
+        width: 440px;
+    }
+/*---------------footer----------------*/
+    footer{
+        height: 597px;
+    }
+    footer #get, footer #stay{
+        margin-top: 118px;
+    }
+    footer .lorem, footer #search_box{
+        margin-top: 27px;
+        margin-bottom: 0px;
+    }
+    footer .lorem{ 
+        width: 610px;
+    }
+    footer #stay, footer #search_box{
+        margin-left: -20px;
+        margin-right: 30px;
+    }
+    footer #spam{
+        margin-top: -10px;
+        margin-left: -20px;
+        margin-right: 30px;
+        margin-bottom: 0px;
+        height: 55px;
+    }
+    footer div[class*="col-sm-2"] .semi_gras{
+        margin-bottom: 25px;
+    }
+    footer #search_box{
+        background: url(images/rounded_rectangle.png) no-repeat;
+    }
+    #search_box img{
+        height: 25px;
+        padding-left: 420px;
+        margin-top: 15px;
+    }
+    footer #search_box{
+        height: 58px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px)
+{
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0 0 0;
+    }
+    .row{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    div[class*="col-"]{
+        width: 100%;
+    }
+    div[class*="offset"]{
+        margin-left: 0px;
+    }
+    #featured_content div[class*="row"],
+    #details div[class="row"], 
+    #price_ranges div[class="row"], #for3{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #details div[class*="col-"], 
+    #price_ranges div[class*="col-"]{
+        width: 50%;
+    }
+    h1, h2{
+        margin-bottom: 30px;
+    }
+    p{
+        /*font-size: 1.1em;*/
+        padding-bottom: 5px;
+    }
+    footer, #description, #details, #about, #price_ranges{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    #details div[class*="col-"], 
+    #about div[class*="col-"],
+    footer div[class*="col-"]{
+        margin-top: 30px;
+    }
+    #details h2, #about h2, #for2c2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    /*---------------header----------------*/
+    header{
+        height: 947px;
+    }
+    /*---------------sectione_one----------------*/
+    #phone{
+       display: none;
+    }
+    #section_one p{
+        width: 45%;
+    }
+    /*---------------description----------------*/
+    /*---------------featured_content----------------*/
+    #featured_content div[class*="col-"]{
+        height: 278px;
+        /*display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: center;*/
+    }
+    #featured_content h2, #featured_content p{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    #fr1c1{
+        width: 100%;
+    }
+    #fr1c2, #fr1c3, #fr2c1, #fr2c2{
+        width: 50%;
+    }
+    #fr2c1 img{
+        /*display: none;*/
+        position: absolute;
+        top: 200px;
+        left: 513px;
+        transform: scale(1.5);
+    }
+    #fr1c3{
+        /*background: url(images/observateur-bspline.png);*/
+        /*background: rgba(128, 64, 64, 0.5);*/
+        background: url(images/observateur_tablettes2.png);
+    }
+    /*---------------details----------------*/
+    /*---------------big_picture----------------*/
+    #big_picture h1{
+        margin-top: 300px;
+        margin-bottom: 40px;
+        height: 1%;
+    }
+    #big_picture div[class*="col-"]{
+        width: 65%;
+    }
+    /*---------------about----------------*/
+    /*---------------price_ranges----------------*/
+    #price_ranges div[class="row"]{
+        padding-right: 15px;
+    }
+    #most_popular, #pc2p2, #pc2p3, #pc2p4, #pc2p5{
+        margin-right: 15px;
+    }
+    #legacy, #most_popular{
+        margin-top: 15px;
+    }
+    #pc1p3, #pc2p3{
+        width: 100%;
+    }
+    /*---------------footer----------------*/
+    #for3 div[class*="col-"]{
+        width: 33.33%;
+    }
+    footer #search_box{
+        background: url(images/rounded_rectangle.png) no-repeat;
+    }
+    #search_box img{
+        height: 25px;
+        padding-left: 420px;
+        margin-top: 15px;
+    }
+    footer #search_box{
+        height: 58px;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0 0 0;
+    }
+    .row{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    div[class*="offset"]{
+        margin-left: 0px;
+    }
+    /*p{
+        font-size: 1.2em;
+    }*/
+    h1, h2{
+        margin-bottom: 20px;
+    }
+    p{
+        padding-bottom: 5px;
+    }
+     footer, #description, #details, #about, #price_ranges{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    #details div[class*="col-"], 
+    #about div[class*="col-"],
+    footer div[class*="col-"]{
+        margin-top: 30px;
+    }
+    #details h2, #about h2, #for2c2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    /*---------------header----------------*/
+    header{
+        height: 947px;
+    }
+    /*---------------sectione_one----------------*/
+    #phone{
+       display: none;
+    }
+    /*---------------description----------------*/
+    /*---------------featured_content----------------*/
+    #featured_content div[class*="col-"]{
+        height: 278px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        vertical-align: center;
+    }
+    #featured_content h2, #featured_content p{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    #fr2c1 img{
+        display: none;
+        /*position: absolute;
+        top: 220px;
+        left: 300px;*/
+    }
+    #fr1c3{
+        /*background: url(images/observateur-bspline.png);*/
+        /*background: rgba(128, 64, 64, 0.5);*/
+        background: url(images/observateur_phone.png);
+    }
+    /*---------------details----------------*/
+    /*---------------big_picture----------------*/
+    #big_picture h1{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        height: 1%;
+    }
+    /*---------------about----------------*/
+    /*---------------price_ranges----------------*/
+    #price_ranges div[class*="col-"]{
+        width: 80%;
+        margin: auto;
+    }
+    .icones{
+        margin-bottom: 50px;
+    }
+    #legacy, #most_popular{
+        margin-top: 15px;
+    }
+/*---------------footer----------------*/
+    footer #ok{
+        margin-left: 255px;
+        margin-top: 20px;
+    }
+    #search_box{
+        background: url(images/rounded_rectangle_phone.png) no-repeat;
+        height: 58px;
+    }
+}
+
+
+
